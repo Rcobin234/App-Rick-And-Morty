@@ -1,0 +1,69 @@
+.residents-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1480px;
+    margin: auto;
+    
+
+
+}
+
+.bg__img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.form__search {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+
+
+} 
+
+.search {
+    outline: none;
+    border: none;
+    margin-left: 2rem;
+    width: 500px;
+    height: 60px;
+    border-radius: 1rem;
+    color: black;
+    font-size: 2rem;
+    padding: 1.2rem;
+    box-shadow: 12px 15px 57px 2px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 12px 15px 57px 2px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 12px 15px 57px 2px rgba(0, 0, 0, 0.8);
+    text-align: center;
+
+}
+
+.btn__search {
+    width: 100px;
+    height: 60px;
+    margin-left: 1rem;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: rgb(9, 145, 81);
+    box-shadow: 12px 15px 57px 2px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 12px 15px 57px 2px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 12px 15px 57px 2px rgba(0, 0, 0, 0.8);
+
+}
